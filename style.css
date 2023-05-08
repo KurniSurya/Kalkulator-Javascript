@@ -1,0 +1,146 @@
+/* .container {
+margin: 50px auto;
+max-width: 500px;
+text-align: center;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.input-group {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.input-group input {
+width: 100px;
+padding: 10px;
+margin: 0 10px;
+border-radius: 5px;
+border: none;
+font-size: 18px;
+text-align: center;
+}
+
+.button-group {
+display: flex;
+justify-content: center;
+}
+
+.tombol {
+width: 50px;
+height: 50px;
+margin: 0 10px;
+border-radius: 50%;
+border: none;
+font-size: 24px;
+background-color: #009688;
+color: #fff;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.tombol:hover {
+background-color: #008080;
+}
+
+.reset {
+background-color: #ddd;
+color: #333;
+}
+
+.reset:hover {
+background-color: #bbb;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f6ebf4;
+}
+
+.container {
+	max-width: 600px;
+	margin: 320px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+.input-group {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	margin-bottom: 20px;
+
+}
+
+.input-group #angka1{
+	margin-right: 10px;	
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.input-group #angka2{
+	margin-right: 10px;	
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.input-group input {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-size: 18px;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.tombol {
+	width: 50px;
+	height: 50px;
+	background-color: #4CAF50;
+	color: #fff;
+	border-radius: 50%;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.reset {
+	background-color: #f44336;
+	border-radius: 50%;
+	width: 100px;
+	border: none;
+	height: 50;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.tombol:hover {
+	background-color: #3e8e41;
+}
+
+#hasil {
+	font-size: 24px;
+	font-weight: bold;
+}

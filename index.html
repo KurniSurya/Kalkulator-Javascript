@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator Sederhana</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Program Kalkulator Sederharna menggunakan JavaScript</h1>
+		<div class="input-group">
+			<input type="number" id="angka1">
+			<input type="number" id="angka2">
+		</div>
+		<div class="button-group">
+			<button class="tombol" onclick="tambah()">+</button>
+			<button class="tombol" onclick="kurang()">-</button>
+			<button class="tombol" onclick="kali()">*</button>
+			<button class="tombol" onclick="bagi()">/</button>
+			<button class="reset" onclick="reset()">Reset</button>
+		</div>
+		<p id="hasil"></p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
